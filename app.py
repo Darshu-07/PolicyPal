@@ -1,7 +1,7 @@
 import streamlit as st
 import fitz  # PyMuPDF
 import requests
-from langchain.llms import Ollama
+from langchain_community.llms import Ollama
 import re
 from io import BytesIO
 from reportlab.lib.pagesizes import letter
