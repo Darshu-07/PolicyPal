@@ -14,11 +14,14 @@
 
 ## 🚀 How to Run Locally
 1. Clone the repository
-2. Install dependencies:
+2. Activate venv in your terminal
+python -m venv venv
+.\venv\Scripts\Activate 
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3. Start Ollama model:
+4. Start Ollama model:
    ollama run mistral
    ollama run llama (local machine)
-4. Run the app:
+5. Run the app:
 streamlit run main.py
