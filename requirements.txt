@@ -4,3 +4,4 @@ langchain
 reportlab
 requests
 matplotlib
+langchain-community
