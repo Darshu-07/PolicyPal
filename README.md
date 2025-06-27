@@ -25,3 +25,6 @@ python -m venv venv
    ollama run llama (local machine)
 5. Run the app:
 streamlit run main.py
+
+
+“Due to Streamlit Cloud limitations, LLM-based features are available only when running the app locally via Ollama. The hosted UI demonstrates the interface only.”
