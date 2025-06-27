@@ -123,7 +123,8 @@ Keep it short.
 
 # --- Streamlit App Setup ---
 st.set_page_config(page_title="PolicyPal - Insurance Simplifier", layout="centered")
-
+if st.secrets.get("streamlit_cloud", False):
+    st.warning("⚠️ LLM features (Mistral, LLaMA2) are disabled on the hosted version.\n\nPlease clone the repo and run locally to access full GenAI capabilities.")
 st.sidebar.title("📋 Navigation")
 page = st.sidebar.radio("Go to", [
     "Upload Policy", "Coverage Strength", "Summarize", "Ask Questions", "Claim Letter", "InsureWise Advisor"
