@@ -1,0 +1,6 @@
+streamlit
+pymupdf
+langchain
+reportlab
+requests
+matplotlib
